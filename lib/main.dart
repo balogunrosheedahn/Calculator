@@ -84,7 +84,7 @@ class SimpleCalculator extends StatefulWidget{
         color: buttonColor,
         padding: EdgeInsets.all(16.0),
         child: TextButton(
-          onPressed: () {},
+          onPressed:()  => buttonPressed(buttonText) ,
           child: Text(buttonText, style:TextStyle(fontSize: 22.0, fontWeight: FontWeight.normal, color: Colors.white ),),
           style: TextButton.styleFrom(
             shape: RoundedRectangleBorder(
